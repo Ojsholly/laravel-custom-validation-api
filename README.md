@@ -7,7 +7,7 @@ This project is an example of creating a custom validation API using Laravel. It
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-- [PHP](https://secure.php.net/downloads.php) >= 8.0
+- [PHP](https://secure.php.net/downloads.php) >= 8.1
 - [Composer](https://getcomposer.org/)
 
 ### Installation
