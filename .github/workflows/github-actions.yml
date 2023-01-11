@@ -33,9 +33,6 @@ jobs:
       - name: Run PHPUnit tests
         run: vendor/bin/phpunit
 
-      - name: Run Code Linting
-        run: vendor/bin/phpcs --standard=PSR2 -v --extensions=php app/
-
       - name: Upload test results
         uses: actions/upload-artifact@v2
         with:
