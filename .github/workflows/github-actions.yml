@@ -21,6 +21,9 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --no-interaction --no-suggest --prefer-dist
 
+      - name: Generate Application key
+        run: php artisan key:generate
+
       - name: Run PHPUnit tests
         run: vendor/bin/phpunit
 
