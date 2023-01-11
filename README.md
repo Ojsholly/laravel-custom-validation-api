@@ -27,7 +27,9 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 
 4. Generate a new application key
-   php artisan key:generate
+```  
+    php artisan key:generate
+```
 
 ### Usage
 The **/validate-payload** endpoint accepts a JSON payload in the following format:
